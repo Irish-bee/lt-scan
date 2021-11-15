@@ -20,7 +20,7 @@ services:
       - SUBSTRATE_RPC_URL=wss://kusama-rpc.polkadot.io/
       - SUBSTRATE_ADDRESS_TYPE=2
       - TYPE_REGISTRY=kusama
-      - SUBSTRATE_METADATA_VERSION=9
+      - SUBSTRATE_METADATA_VERSION=14
     depends_on:
       - mysql
 
