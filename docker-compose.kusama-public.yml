@@ -17,9 +17,9 @@ services:
       - DB_USERNAME=root
       - DB_PASSWORD=root
       - DB_NAME=polkascan
-      - SUBSTRATE_RPC_URL=wss://kusama-rpc.polkadot.io/
-      - SUBSTRATE_ADDRESS_TYPE=2
-      - TYPE_REGISTRY=kusama
+      - SUBSTRATE_RPC_URL=ws://47.108.199.133:9946
+      - SUBSTRATE_ADDRESS_TYPE=42
+      - TYPE_REGISTRY=default`
       - SUBSTRATE_METADATA_VERSION=14
     depends_on:
       - mysql
@@ -41,9 +41,9 @@ services:
       - DB_USERNAME=root
       - DB_PASSWORD=root
       - DB_NAME=polkascan
-      - SUBSTRATE_RPC_URL=wss://kusama-rpc.polkadot.io/
-      - TYPE_REGISTRY=kusama
-      - SUBSTRATE_ADDRESS_TYPE=2
+      - SUBSTRATE_RPC_URL=ws://47.108.199.133:9946
+      - TYPE_REGISTRY=default
+      - SUBSTRATE_ADDRESS_TYPE=42
       - SUBSTRATE_METADATA_VERSION=9
       - BALANCE_SYSTEM_ACCOUNT_MIN_BLOCK=1375086
       - NEW_SESSION_EVENT_HANDLER=True
